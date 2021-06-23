@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00B2116267C1B5300BB4391 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B2115267C1B5300BB4391 /* ItemData.swift */; };
 		C00BF2282679146800F87A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BF2272679146800F87A2E /* AppDelegate.swift */; };
 		C00BF22A2679146800F87A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BF2292679146800F87A2E /* SceneDelegate.swift */; };
-		C00BF22C2679146800F87A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BF22B2679146800F87A2E /* ViewController.swift */; };
+		C00BF22C2679146800F87A2E /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BF22B2679146800F87A2E /* WelcomViewController.swift */; };
 		C00BF22F2679146800F87A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00BF22D2679146800F87A2E /* Main.storyboard */; };
 		C00BF2312679146A00F87A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00BF2302679146A00F87A2E /* Assets.xcassets */; };
 		C00BF2342679146A00F87A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00BF2322679146A00F87A2E /* LaunchScreen.storyboard */; };
+		C07F2F2D267926C700997656 /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F2F2C267926C700997656 /* UIElements.swift */; };
+		C07F2F2F26794D6400997656 /* CamerScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F2F2E26794D6300997656 /* CamerScanViewController.swift */; };
+		C0A5D540267D70690040BFCA /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5D53F267D70690040BFCA /* ItemManager.swift */; };
+		C0AF1539267960A10031A48B /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF1538267960A10031A48B /* Scanner.swift */; };
+		C0E9D9D7267A64A200A8C68F /* CartCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E9D9D6267A64A200A8C68F /* CartCollectionViewController.swift */; };
+		C0FF1A632681015E00FEF462 /* ItemData.json in Resources */ = {isa = PBXBuildFile; fileRef = C0FF1A622681015E00FEF462 /* ItemData.json */; };
+		C0FF1A65268148C800FEF462 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FF1A64268148C800FEF462 /* ItemModel.swift */; };
+		C0FFFA00267ACEDB009B5B96 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFF9FF267ACEDA009B5B96 /* CartTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00B2115267C1B5300BB4391 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
 		C00BF2242679146800F87A2E /* QRShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00BF2272679146800F87A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C00BF2292679146800F87A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C00BF22B2679146800F87A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C00BF22B2679146800F87A2E /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		C00BF22E2679146800F87A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C00BF2302679146A00F87A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00BF2332679146A00F87A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C00BF2352679146A00F87A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07F2F2C267926C700997656 /* UIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
+		C07F2F2E26794D6300997656 /* CamerScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerScanViewController.swift; sourceTree = "<group>"; };
+		C0A5D53F267D70690040BFCA /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		C0AF1538267960A10031A48B /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		C0E9D9D6267A64A200A8C68F /* CartCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollectionViewController.swift; sourceTree = "<group>"; };
+		C0FF1A622681015E00FEF462 /* ItemData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ItemData.json; sourceTree = "<group>"; };
+		C0FF1A64268148C800FEF462 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		C0FFF9FF267ACEDA009B5B96 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,46 @@
 			children = (
 				C00BF2272679146800F87A2E /* AppDelegate.swift */,
 				C00BF2292679146800F87A2E /* SceneDelegate.swift */,
-				C00BF22B2679146800F87A2E /* ViewController.swift */,
+				C0FF1A622681015E00FEF462 /* ItemData.json */,
+				C07F2F2C267926C700997656 /* UIElements.swift */,
+				C0AF153A267960AA0031A48B /* Model */,
+				C07F2F2B267926AF00997656 /* Controller */,
 				C00BF22D2679146800F87A2E /* Main.storyboard */,
 				C00BF2302679146A00F87A2E /* Assets.xcassets */,
 				C00BF2322679146A00F87A2E /* LaunchScreen.storyboard */,
 				C00BF2352679146A00F87A2E /* Info.plist */,
 			);
 			path = QRShoppingApp;
+			sourceTree = "<group>";
+		};
+		C07F2F2B267926AF00997656 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C00BF22B2679146800F87A2E /* WelcomViewController.swift */,
+				C07F2F2E26794D6300997656 /* CamerScanViewController.swift */,
+				C0E9D9D6267A64A200A8C68F /* CartCollectionViewController.swift */,
+				C0FFFA01267ACEE2009B5B96 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C0AF153A267960AA0031A48B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0AF1538267960A10031A48B /* Scanner.swift */,
+				C0FF1A64268148C800FEF462 /* ItemModel.swift */,
+				C00B2115267C1B5300BB4391 /* ItemData.swift */,
+				C0A5D53F267D70690040BFCA /* ItemManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0FFFA01267ACEE2009B5B96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0FFF9FF267ACEDA009B5B96 /* CartTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +177,7 @@
 			files = (
 				C00BF2342679146A00F87A2E /* LaunchScreen.storyboard in Resources */,
 				C00BF2312679146A00F87A2E /* Assets.xcassets in Resources */,
+				C0FF1A632681015E00FEF462 /* ItemData.json in Resources */,
 				C00BF22F2679146800F87A2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00BF22C2679146800F87A2E /* ViewController.swift in Sources */,
+				C00B2116267C1B5300BB4391 /* ItemData.swift in Sources */,
+				C07F2F2F26794D6400997656 /* CamerScanViewController.swift in Sources */,
+				C0E9D9D7267A64A200A8C68F /* CartCollectionViewController.swift in Sources */,
+				C00BF22C2679146800F87A2E /* WelcomViewController.swift in Sources */,
+				C0FF1A65268148C800FEF462 /* ItemModel.swift in Sources */,
 				C00BF2282679146800F87A2E /* AppDelegate.swift in Sources */,
+				C07F2F2D267926C700997656 /* UIElements.swift in Sources */,
+				C0AF1539267960A10031A48B /* Scanner.swift in Sources */,
 				C00BF22A2679146800F87A2E /* SceneDelegate.swift in Sources */,
+				C0A5D540267D70690040BFCA /* ItemManager.swift in Sources */,
+				C0FFFA00267ACEDB009B5B96 /* CartTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
